@@ -1,5 +1,15 @@
 /* Copyright © Blacksuan19 @ 2020 */
 
+/* custom fonts */
+.notion-app-inner {
+  font-family: "SF Pro Rounded", sans-serif !important;
+}
+[style*="monospace;"] {
+  font-family: " JetBrains Mono", monospace !important;
+}
+[style*=", serif;"] {
+  font-family: "SF Pro Rounded", serif !important;
+}
 /* hide window control buttons (i dont need those no a wm)*/
 .notion-dark-theme .window-buttons {
   display: none;
@@ -144,4 +154,14 @@
 .notion-cursor-default
   > [style*="border-bottom: 1px solid rgba(255, 255, 255, 0.07)"] {
   border-bottom: 1px solid rgba(15, 17, 26, 1) !important;
+}
+
+/*hide discussions on each page */
+.notion-page-view-discussion {
+  display: none !important;
+}
+
+/* wider page previews */
+.notion-peek-renderer > div:nth-child(2) {
+  max-width: 85vw !important;
 }

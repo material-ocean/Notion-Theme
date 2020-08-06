@@ -1,5 +1,10 @@
 ![screenshot](/screen.png)
 
+### Required Fonts
+
+- [SF Pro Rounded](https://developer.apple.com/fonts/)
+- [JetBrains Mono](https://www.jetbrains.com/lp/mono)
+
 ### Installation
 
 - download [notion enhancer](https://github.com/dragonwocky/notion-enhancer/)
