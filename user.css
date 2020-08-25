@@ -117,13 +117,13 @@
   background: #0f111a !important;
 }
 
-/*change color of CALCULATIONS row of table! 
+/*change color of CALCULATIONS row of table!
  * change is + div */
 .notion-table-view-add-row + div {
   background: #0f111a !important;
 }
 
-/*center justify column headers. And not these only 
+/*center justify column headers. And not these only
  * apply as far as the letters, so you can't change
  * the whole column color.*/
 .notion-table-view-header-cell > div > div {
